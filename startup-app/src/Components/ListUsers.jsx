@@ -26,6 +26,12 @@ class ListUsers extends Component {
                         <td>{this.props.Email}</td>
                         <td>{this.props.Company}</td>
                     </tr>
+                    <tr>
+                        <td>{this.props.Id}</td>
+                        <td>{this.props.Name}</td>
+                        <td>{this.props.Email}</td>
+                        <td>{this.props.Company}</td>
+                    </tr>
                 </table>
             </div>
          );
