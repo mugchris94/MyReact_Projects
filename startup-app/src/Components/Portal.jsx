@@ -9,6 +9,7 @@ class Portal extends Component {
     render() { 
         return ( 
             <div className="">
+                <label htmlFor="Banner">Portal</label>
                 <form action="#" className="login">
                     <label htmlFor="user" className="username">Enter Username</label>
                     <input type="text" placeholder={this.props.username}/><br/>
