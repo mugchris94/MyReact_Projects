@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 class Portal extends Component {
     constructor(props) {
@@ -8,7 +8,7 @@ class Portal extends Component {
     }
     render() { 
         return ( 
-            <div className="">
+            <div className="container">
                 <label htmlFor="Banner">Portal</label>
                 <form action="#" className="login">
                     <label htmlFor="user" className="username">Enter Username</label>

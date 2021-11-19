@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 import ListUsers from './Components/ListUsers';
 
 import Portal from './Components/Portal';
